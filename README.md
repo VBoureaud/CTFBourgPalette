@@ -10,6 +10,7 @@ Built during the Secureworks Cybersecurity Literacy Challenge 2022.
 1. [Dependencies](#dependencies)
 3. [Installation and launch](#installation-and-launch)
 6. [Demo](#demo)
+8. [Update the maps](#update-map)
 7. [In the Future](#in-the-future)
 8. [Known issues](#known-issues)
 8. [Credits](#credits)
@@ -42,12 +43,20 @@ $ npm start
 There is a live demo running on vercel.
 You can find it [here](https://ctf-bourgpalette.vercel.app)
 
+### Update the maps
+To update the maps you will need a software named [Tiled](https://www.mapeditor.org).
+Open a map file map.tmx, and locate your tilesets assets/tilesets.png.
+Then you can edit your map but be careful, respect the layers.
+When you are done save your map.tmx and export as a map.json.
+
 ### In the Future
 Still a lot of ideas that I would like to implement:
 
 | Ideas        |
 |--------------|
-| Warn when you update a level |
+| Quests about Phising, Sim Swap, Multi-Auth, OSINT, Rogue Access Point, Cryptographic |
+| P5.js game to simulate Bruteforce Attack |
+| Click on flag to auto copy |
 
 ### Known issues
 To be corrected in the next version. 
