@@ -41,6 +41,9 @@ const styles = {
     textAlign: 'center',
     padding: '5px',
   } as React.CSSProperties,
+  fullWidth: {
+    width: '100%',
+  },
 };
 
 type PhoneAimType = {
@@ -177,11 +180,14 @@ function PhoneAim(props: PhoneAimType) {
         dataSource={dataTools}
         style={{ background: 'white' }}
         renderItem={item => (
-          <List.Item onClick={() => { 
-              if (item.action === 'scan') setLoading(true);
-              setStep(item.action);
-            }}>
-            {item.name}
+          <List.Item>
+            <div style={styles.fullWidth} onClick={() => { 
+                if (item.action === 'scan') setLoading(true);
+                setStep(item.action);
+              }
+            }>
+              {item.name}
+            </div>
           </List.Item>
         )}
       />}

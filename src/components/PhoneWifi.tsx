@@ -102,11 +102,13 @@ function PhoneWifi(props: PhoneWifiType) {
         dataSource={props.data.filter(elt => elt.actif)}
         style={{ background: 'white' }}
         renderItem={item => (
-          <List.Item onClick={() => handleChooseWifi(item)} style={{ display: calculateDistance(props.position, item.coord) >= 0 ? 'block' : 'none' }}>
-            <WifiOutlined style={styles.iconStyle} />
-            <LockOutlined style={styles.iconStyle} />
-            {item.name}
-            <span style={{ float: 'right' }}>{calculateDistance(props.position, item.coord)}/5</span>
+          <List.Item style={{ display: calculateDistance(props.position, item.coord) >= 0 ? 'block' : 'none' }}>
+            <div onClick={() => handleChooseWifi(item)}>
+              <WifiOutlined style={styles.iconStyle} />
+              <LockOutlined style={styles.iconStyle} />
+              {item.name}
+              <span style={{ float: 'right' }}>{calculateDistance(props.position, item.coord)}/5</span>
+            </div>
           </List.Item>
         )}
       />}

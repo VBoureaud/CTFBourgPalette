@@ -1,7 +1,6 @@
 import React from 'react';
-import { Layout, Typography } from "antd";
-const { Text, Title } = Typography;
-const { Footer } = Layout;
+import { Typography } from "antd";
+const { Title } = Typography;
 
 const styles = {
   content: {
@@ -37,11 +36,11 @@ const styles = {
   } as React.CSSProperties
 };
 
-type NavBar = {
+type NavBarType = {
   onClick?: Function;
 };
 
-function NavBar(props: NavBar) {
+function NavBar(props: NavBarType) {
 	return (
 		<div style={styles.header}>
       <div style={styles.headerContainer}>
