@@ -286,7 +286,7 @@ function ComputerScreen(props: ComputerScreenType) {
             <p>Last login: 5min ago</p>
             <p style={{ marginTop: '25px', borderTop: '1px solid black', paddingTop: '20px' }}>Find here the informations built according to your usage of PhotoGram:</p>
             <p>Gender: Woman</p>
-            <p>Time spent: 185min by day</p>
+            <p>Time spent: 185min per day</p>
             <p>Affinity with: Chocolate, Clothes, Cats</p>
             <p>Language: English</p>
             <p>Location: Bourg Palette</p>

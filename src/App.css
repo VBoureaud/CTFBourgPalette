@@ -44,6 +44,8 @@
   justify-content: center;
   width: 100%;
   max-width: 40vw;
+  align-items: center;
+  height: 100%;
 }
 .phoneGame .ant-modal {
   top: 0;
@@ -52,6 +54,7 @@
   max-width: 40vw;
   max-height: 100vh;
   padding-bottom: 0;
+  height: 100%;
 }
 .phoneGame .ant-modal-footer {
   display: none;

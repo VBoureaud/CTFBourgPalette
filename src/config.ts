@@ -3,7 +3,7 @@
 // IF YOU READ LONGER, YOU WILL BE SPOILED.
 
 const config = {
-	version: '0.1.0',
+	version: '0.1.1',
 	debug: false,
 	game: {
 		name: 'CTFBourgPalette',
@@ -23,12 +23,12 @@ const config = {
 						dialog: [
 							'Welcome in CTFBourgPalette! Are you here to practice your hacking skills ?',
 							'Amazing! This is for you. I\' curious to know if you are more black hat or white hat.',
-							'Your choices will define it. Enjoy!'
+							'Your choices will define it. Enjoy!',
 						],
 					},
 					id19: { optional: true, computerScreen: true, computerMode: 'photogram' },
 				},
-				success: 'You got a Phone!',
+				success: 'You got a Phone! Time to hack! An automatic save is launched after each successful quest.',
 			},
 			OPJSBE9U: {
 				level: 2,
@@ -63,7 +63,7 @@ const config = {
 			AOKZC3O2: { // Code needed in ComputerScreen
 				level: 4,
 				title: 'Quest 4',
-				desc: 'It\'s time to play with the password. Find a computer to log in to the account whose credentials you just obtained.',
+				desc: 'It\'s time to play with the password. Find a computer to log in to the account whose credentials you just obtained and try to find a flag.',
 				map: '',
 				wifiKnow: [ 'ZOULOUFAMILY' ],
 				orderFix: false,
@@ -77,13 +77,13 @@ const config = {
 			WOXHAP89: { // Code needed in ComputerScreen
 				level: 5,
 				title: 'Quest 5',
-				desc: 'Buy a IMSI-catcher and place it in the city. Then wait for data !',
+				desc: 'Buy a IMSI-catcher and place it on a strategic point in the city. Then wait for data !',
 				map: '',
 				wifiKnow: [ 'ZOULOUFAMILY' ],
 				orderFix: true,
 				imsiHandler: false,
 				goalOrder: {
-					id3: { break: true, dialog: [ 'I see, you want my spy tool finally ?', 'Oh you\'ve got a credit card, ok let\'s proceed with the transaction.' ] },
+					id3: { break: true, dialog: [ 'I see, you want my spy tool after all ?', 'Oh you\'ve got a credit card, ok let\'s proceed with the transaction.', 'If you want to try it, place it on a tall object like the Eiffel Tower, a construction crane or even a street lamp.' ] },
 					id20: { break: true, dialog: [ 'You have successfully hidden your IMSI-catcher' ] },
 					id19: { optional: true, computerScreen: true, computerMode: 'photogram' },
 				},

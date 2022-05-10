@@ -219,7 +219,10 @@ function PhoneAim(props: PhoneAimType) {
 
       {step === 'mimListen_navigation' && <div style={styles.contentChild}>
         <h3 style={{ color: 'white' }}>Listen to the network live...</h3>
-        <Checkbox style={{ width: '100%', background: 'rgb(38, 71, 98)', color: 'white', padding: '5px' }} onChange={(e: any) => setFilterNetwork(e.target.checked)}>Only credentials</Checkbox>
+        <div style={{ width: '100%', background: 'rgb(38, 71, 98)', color: 'white', padding: '5px' }}>
+          Filter:
+          <Checkbox style={{ marginLeft: '10px', color: 'white'}} onChange={(e: any) => setFilterNetwork(e.target.checked)}>Only credentials</Checkbox>
+        </div>
         <List
           size="small"
           bordered
