@@ -74,7 +74,7 @@ Some awesome libraries/projects help power this one:
 * [Create-React-Phaser3-App](https://github.com/kevinshen56714/create-react-phaser3-app), for the boilerplate ReactJS + PhaserJS
 * [Ariel Roffe](https://arielroffe.quest), for the structure of the phaserJS game
 * [NES.css](https://nostalgic-css.github.io/NES.css) for the crazy NES design 
-* [NES.css](https://github.com/ant-design/ant-design) for the reactJs design part 
+* [Ant Design](https://github.com/ant-design/ant-design) for the reactJs design part 
 * [TypeScript](https://www.typescriptlang.org/), write JS with syntax for types
 * [Reactjs](https://reactjs.org) - Library for building user interfaces
 
