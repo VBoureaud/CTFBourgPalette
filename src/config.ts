@@ -17,12 +17,12 @@ const config = {
 				orderFix: false,
 				imsiHandler: false,
 				goalOrder: {
-					id3: { optional: true, break: true, dialog: [ 'Welcome in my city! Do you need some help ?', 'Oh yes! The neighborhood is really nice and quiet. I use to walk around here and enjoy my time.', 'Only once I heard someone shout "123456789". I didn\'t understand why...', 'Well, see you later.' ] },
+					id3: { optional: true, break: true, dialog: [ 'Welcome to my city! Do you need some help ?', 'Oh yes! The neighbourhood is really nice and quiet. I used to walk around here and enjoy my time.', 'Only once I heard someone shout "123456789". I didn\'t understand why...', 'Well, see you later.' ] },
 					id10: {
 						break: true,
 						dialog: [
-							'Welcome in CTFBourgPalette! Are you here to practice your hacking skills ?',
-							'Amazing! This is for you. I\' curious to know if you are more black hat or white hat.',
+							'Welcome to CTFBourgPalette! Are you here to practice your hacking skills ?',
+							'Amazing! This is for you. I\'m curious to know if you are more black hat or white hat.',
 							'Your choices will define it. Enjoy!',
 						],
 					},
@@ -39,11 +39,11 @@ const config = {
 				orderFix: false,
 				imsiHandler: false,
 				goalOrder: {
-					id3: { optional: true, break: true, dialog: [ 'Welcome in my city! Do you need some help ?', 'Oh yes! The neighborhood is really nice and quiet. I use to walk around here and enjoy my time.', 'Only once I heard someone shout "123456789". I didn\'t understand why...', 'Well, see you later.' ] },
+					id3: { optional: true, break: true, dialog: [ 'Welcome to my city! Do you need some help ?', 'Oh yes! The neighbourhood is really nice and quiet. I used to walk around here and enjoy my time.', 'Only once I heard someone shout "123456789". I didn\'t understand why...', 'Well, see you later.' ] },
 					id19: { optional: true, computerScreen: true, computerMode: 'photogram' },
 					phone: { method: 'wifi', name: 'ZOULOUFAMILY' },
 				},
-				success: 'You succeed your first infiltration.'
+				success: 'You succeed on your first infiltration.'
 			},
 			IOHFD93W: {
 				level: 3,
@@ -54,11 +54,11 @@ const config = {
 				orderFix: false,
 				imsiHandler: false,
 				goalOrder: {
-					id6: { optional: true, break: true, dialog: [ 'Hey man, do you know where Sara is? I\'ve been waiting her for so long now!'] },
+					id6: { optional: true, break: true, dialog: [ 'Hey man, do you know where Sara is? I\'ve been waiting for her for so long now!'] },
 					phone: { method: 'aim', name: 'AOKZC3O2' },
 					id19: { optional: true, computerScreen: true, computerMode: 'photogram' },
 				},
-				success: 'You succeed your first exploitation.'
+				success: 'You succeed on your first exploitation.'
 			},
 			AOKZC3O2: { // Code needed in ComputerScreen
 				level: 4,
@@ -92,7 +92,7 @@ const config = {
 			PAPILLON: { // Code needed in ComputerScreen
 				level: 6,
 				title: 'Quest 6',
-				desc: 'Look the data you get and try to see if there is something you can use!',
+				desc: 'Look at the data you get and try to see if there is something you can use!',
 				map: '',
 				wifiKnow: [ 'ZOULOUFAMILY' ],
 				orderFix: true,
@@ -141,7 +141,7 @@ const config = {
 			},
 			id4: {
 				name: '',
-				default: 'Bourg Palette is populate by 10 wonderful people. We are happy to count you among us.',
+				default: 'Bourg Palette is populated by 10 wonderful people. We are happy to count you among us.',
 			},
 			id5: {
 				name: '',
